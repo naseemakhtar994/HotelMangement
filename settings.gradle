@@ -1,0 +1,2 @@
+include ':app',':sliding-drawer-layout'
+rootProject.name = "Hotel Management"

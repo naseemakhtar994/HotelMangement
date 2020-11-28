@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotelmanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdminLogin" android:label="Admin Login"></activity>
+<!--        <activity-->
+<!--            android:name=".NewDashBoardActivity"-->
+<!--            android:label="@string/title_activity_new_dash_board"-->
+<!--            android:theme="@style/AppTheme.NoActionBar">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+        <activity
+            android:name=".HelpActivity"
+            android:label="Help" />
+        <activity
+            android:name=".MyAccount"
+            android:label="My Account" />
+        <activity
+            android:name=".ListingActivity"
+            android:label="Hotel Listing" />
+
+
+        <activity
+            android:name=".AdminDashBoard"
+            android:label="Hotel Listing" />
+
+
+        <activity
+            android:name=".ReservationList"
+            android:label="Reservation Listing" />
+        <activity
+            android:name=".DashBoardActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="Sign Up" />
+
+        <activity
+            android:name=".TotalEarningActivity"
+            android:label="Total Earning" />
+        <activity
+            android:name=".HotelDetailsActivity"
+            android:label="Hotel Detail" />
+        <activity android:name=".SubmitDetailsActivity" />
+        <activity
+            android:name=".CompareActivity"
+            android:label="Copare Hotel" />
+        <activity
+            android:name=".LooginActivity"
+            android:label="Login" />
+        <activity
+            android:name=".BookingListingActivity"
+            android:label="My Booking" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

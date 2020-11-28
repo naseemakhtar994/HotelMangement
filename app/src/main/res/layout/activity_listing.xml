@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListingActivity">
+
+    <EditText
+        android:id="@+id/edit_query"
+        android:layout_width="match_parent"
+        android:background="@drawable/border"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:hint="Search"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/layoutFlter"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/priceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+
+            android:background="@drawable/unselected_buttonborder"
+            android:text="Price" />
+
+        <Button
+            android:id="@+id/ratingButton"
+            android:background="@drawable/unselected_buttonborder"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:text="Rating"
+            android:textColor="#fff"
+
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/aminitiesButton"
+            android:background="@drawable/unselected_buttonborder"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:text="Aminities"
+            android:textColor="#fff"
+
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/starButton"
+            android:background="@drawable/unselected_buttonborder"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:text="Star"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "854747687929",
+    "firebase_url": "https://share-d1b27.firebaseio.com",
+    "project_id": "share-d1b27",
+    "storage_bucket": "share-d1b27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854747687929:android:0313736fa5736cad",
+        "android_client_info": {
+          "package_name": "com.awesomepr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854747687929-07hf8jv4qaoj2n4cofmm541pr59atrbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlgYveU_vM6aUO5b5em_sunMVJSgIVma8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854747687929-07hf8jv4qaoj2n4cofmm541pr59atrbk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "854747687929-kpm028pl6sc3b99r039vurlfkvj0ectq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Nic.mohit-ios"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854747687929:android:2c3a32b4f98b6c66faeb28",
+        "android_client_info": {
+          "package_name": "com.example.hotelmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854747687929-07hf8jv4qaoj2n4cofmm541pr59atrbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlgYveU_vM6aUO5b5em_sunMVJSgIVma8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854747687929-07hf8jv4qaoj2n4cofmm541pr59atrbk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "854747687929-kpm028pl6sc3b99r039vurlfkvj0ectq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Nic.mohit-ios"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854747687929:android:7b176ae60f1fa972",
+        "android_client_info": {
+          "package_name": "com.newbee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854747687929-07hf8jv4qaoj2n4cofmm541pr59atrbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlgYveU_vM6aUO5b5em_sunMVJSgIVma8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854747687929-07hf8jv4qaoj2n4cofmm541pr59atrbk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "854747687929-kpm028pl6sc3b99r039vurlfkvj0ectq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Nic.mohit-ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
