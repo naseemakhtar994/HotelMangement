@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewHotel"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/images6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textviewHotelName"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:maxLines="1"
+                    android:textColor="#000"
+                    android:text="Hotel Marial"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/compare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/buttonborder"
+                    android:text="Compare"
+                    android:layout_marginTop="-5dp"
+                    android:textAllCaps="false"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/textviewHotelStar"
+                    android:textColor="#E11818"
+                    android:layout_width="0dp"
+                    android:layout_weight=".1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="5 Star " />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Per Night: "
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/pernightPrice"
+                        android:layout_width="wrap_content"
+                        android:text="$1000"
+                        android:textStyle="bold"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textviewHotelRAting"
+                android:layout_width="wrap_content"
+                android:textColor="#52CC06"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5.0" />
+
+            <TextView
+                android:id="@+id/textViewDesction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Hotel Desc" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Aminities"
+                android:textStyle="bold"
+                android:textColor="#000" />
+
+            <TextView
+                android:id="@+id/textViewAminities"
+                android:textColor="#C60DC3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aminities" />
+
+
+            <Button
+                android:id="@+id/buttonBooknow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/buttonborder"
+                android:text="Book Now" />
+
+        </LinearLayout>
+
+        <include layout="@layout/booking_submit_layout"  android:visibility="gone" android:id="@+id/booknow"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

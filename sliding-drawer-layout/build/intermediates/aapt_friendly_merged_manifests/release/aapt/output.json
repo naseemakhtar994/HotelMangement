@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "com.liuzhenlin.slidingdrawerlayout",
+  "variantType": "LIBRARY",
+  "elements": [
+    {
+      "outputType": {
+        "type": "AAPT_FRIENDLY_MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 8,
+        "versionName": "1.2.4",
+        "outputFile": "sliding-drawer-layout-release.aar",
+        "fullName": "release",
+        "baseName": "release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.liuzhenlin.slidingdrawerlayout",
+        "split": ""
+      }
+    }
+  ]
+}

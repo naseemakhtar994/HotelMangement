@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+attr? contentFadeColor
+attr? contentSensitiveEdgeSize
+attr? duration
+attr? enabledInTouch_endDrawer
+attr? enabledInTouch_leftDrawer
+attr? enabledInTouch_rightDrawer
+attr? enabledInTouch_startDrawer
+attr? widthPercent_endDrawer
+attr? widthPercent_leftDrawer
+attr? widthPercent_rightDrawer
+attr? widthPercent_startDrawer
+id unspecified
+styleable SlidingDrawerLayout widthPercent_leftDrawer widthPercent_rightDrawer widthPercent_startDrawer widthPercent_endDrawer enabledInTouch_leftDrawer enabledInTouch_rightDrawer enabledInTouch_startDrawer enabledInTouch_endDrawer contentSensitiveEdgeSize contentFadeColor duration
+styleable SlidingDrawerLayout_Layout android:layout_gravity

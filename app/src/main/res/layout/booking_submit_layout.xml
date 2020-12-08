@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/booknow"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="10dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Contact" />
+
+    <EditText
+        android:id="@+id/editTextContact"
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:inputType="number"
+        android:padding="10dp" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/editTextAddress"
+
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+
+        android:padding="10dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:text="Select Room" />
+
+    <Spinner
+        android:id="@+id/spinnerRooms"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:entries="@array/rooms"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/textViewSelectedDates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Date"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/buttonSelectDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:padding="7dp"
+        android:text="Select Date" />
+
+    <Button
+        android:id="@+id/buttonSubmitBookingData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/buttonborder"
+        android:text="Submit" />
+</androidx.appcompat.widget.LinearLayoutCompat>
